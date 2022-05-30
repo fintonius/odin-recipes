@@ -7,3 +7,5 @@ This project will demonstrate what I've learned
 about using HTML to build a website.
 
 This line is part of the test to understand using git add and git commit
+
+This line is the second part of the test
