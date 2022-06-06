@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 
 <html>
+
 	<head lang="eng">
 		<meta charset="UTF-8">
-		<title>Recipes</title>
+		<link rel="stylesheet" href="style.css">
+		<title>Recipes</title>	
 	</head>
 
-	<body>
+	<body class="center">
 
-		<img src="images/main.jpg" width="800" alt="A composite image showing parts 
+		<h1 class="heading">Odin Recipes</h1>
+
+		<img src="images/main.jpg" alt="A composite image showing parts 
 		of a burger, a bowl of tarka dahl and a plate of enchiladas">
-		<h1>Odin Recipes</h1>
 
 		<p>
-			<h2>Click on a dish below to be taken to the delicious recipe!</h2>
+			<h2 class="description">Click on a dish below to be taken to the delicious recipe!</h2>
 		</p>
-		<p>
-			<ul>
+		<div class="flavour-text">
+			<p>
+			<ul class="flavour-text">
 				<!-- Not sure why but changing the below links from "../recipes/" to "./recipes/" 
 				stopped the 404 error I was getting when publishing the site through Github when 
 				any of the links were clicked. The links worked fine when live previewing and I couldn't
@@ -26,7 +30,12 @@
 				<li><a href="./recipes/tarka-dal.html">Tarka Dhal</a></li>
 			</ul>
 		</p>
-		<p>hell world</p>
+		</div>
+
+		<p class="footer">
+			<a href="https://www.youtube.com/watch?v=khSYcMbXb0s" target="_blank">hell world</a>
+		</p>
+
 	</body>
 
 </html>
